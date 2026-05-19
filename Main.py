@@ -61,7 +61,7 @@ while True:
 
     elif pilih == "5":
 
-        print("Program selesai 🚍")
+        print("Program selesai")
         break
 
     else:
