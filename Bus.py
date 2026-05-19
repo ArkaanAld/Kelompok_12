@@ -9,7 +9,7 @@ class BusListrik(Armada):
 
     def bergerak(self):
 
-        print(f"{self.nama} sedang bergerak ⚡")
+        print(f"{self.nama} sedang bergerak")
 
         km = float(input("Masukkan jarak tempuh: "))
 
@@ -18,7 +18,7 @@ class BusListrik(Armada):
 
     def berhenti(self):
 
-        print(f"{self.nama} berhenti 🛑")
+        print(f"{self.nama} sedang berhenti")
 
     def hitung_biaya(self):
 
